@@ -1,28 +1,27 @@
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
   max-width: 900px;
   margin: 50px auto;
-  padding: 30px;
+  padding: 10px;
   background-color: #fdfdfd;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  font-family: 'Segoe UI', sans-serif;
+ 
 }
 
 
 .inputs {
-  flex: 1;
+flex: 1;
   margin-right: 30px;
 }
 
 
 .results {
   flex: 1;
-  height: 60vh;
+  height: 72vh;
   padding-top: 50px;
-  background-color: #f0f8ff;
+  background-color: #cbe3f8;
   
 }
 
@@ -48,7 +47,7 @@ label {
 input[type="number"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 16px;
@@ -87,7 +86,7 @@ input[type="number"] {
 }
 
 .list {
-  background-color: #f0f0f0;
+  background-color: #578cb4;
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
@@ -98,4 +97,9 @@ input[type="number"] {
 .list:hover {
   background-color: #dcdcdc;
   transform: scale(1.05);
+
+}
+p{
+    font-size: 2.5rem;
+    font-weight: bold;
 }

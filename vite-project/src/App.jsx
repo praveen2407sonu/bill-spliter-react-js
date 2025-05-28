@@ -39,12 +39,12 @@ function BillSplitter() {
   <div className="inputs">
     <h2>Bill Splitter</h2>
     <div>
-      <label>Bill Amount</label><br /><br />
+      <label>Bill Amount</label><br />
       <input type="number" placeholder='Bill Amount' value={bill} 
       onChange={(e) => setBill(e.target.value)} />
     </div>
     <div>
-      <label>Tip Percentage</label><br /><br />
+      <label>Tip Percentage</label><br />
 
      <ul className='unlist' >
                 {[5,10,15,25,50,75].map((value)=>(
@@ -57,7 +57,7 @@ function BillSplitter() {
       onChange={(e) => setTipPercentage(e.target.value)} />
     </div>
     <div>
-      <label>Number of People</label><br /><br />
+      <label>Number of People</label><br />
       <input type="number" placeholder='Number of people' value={people} 
       onChange={(e) => setPeople(e.target.value)} />
     </div>
@@ -65,9 +65,9 @@ function BillSplitter() {
   </div>
 
   <div className="results">
-    <p><strong>Tip Amount:</strong> {tipAmount}</p>
-    <p><strong>Total Bill:</strong> {totalBill}</p>
-    <p><strong>Amount Per Person:</strong> {amountPerPerson}</p>
+    <p>Tip Amount:{tipAmount}</p>
+    <p>Total Bill: {totalBill}</p>
+    <p>Amount Per Person: {amountPerPerson}</p>
   </div>
 </div>
 
